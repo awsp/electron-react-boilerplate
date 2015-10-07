@@ -19,9 +19,9 @@ app.on('ready', function() {
   mainWindow = new BrowserWindow({ width: 1024, height: 728 });
 
   if (process.env.HOT) {
-    mainWindow.loadUrl('file://' + __dirname + '/app/hot-dev-app.html');
+    mainWindow.loadUrl('file://' + __dirname + '/hot-dev-app.html');
   } else {
-    mainWindow.loadUrl('file://' + __dirname + '/app/app.html');
+    mainWindow.loadUrl('file://' + __dirname + '/app.html');
   }
 
   mainWindow.on('closed', function() {

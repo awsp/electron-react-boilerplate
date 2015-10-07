@@ -1,0 +1,8 @@
+{
+  "name": "your_app",
+  "main": "main.js",
+  "author": {
+    "name": "Your Name",
+    "email": "developer@exmaple.com"
+  }
+}
